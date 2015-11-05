@@ -1,6 +1,7 @@
 from ete2 import Tree, faces, AttrFace, TreeStyle, NodeStyle, CircleFace
+import sys
 
-inputTreeFile = "<inputTreeFile>"
+inputTreeFile = sys.argv[1]
 
 t = Tree(inputTreeFile,format=2)
 
